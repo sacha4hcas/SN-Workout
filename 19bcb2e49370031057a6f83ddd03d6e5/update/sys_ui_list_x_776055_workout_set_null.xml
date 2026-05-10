@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_776055_workout_set" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_776055_workout_set" element="NULL" name="x_776055_workout_set" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fa4f1b0993700310d656f01bdd03d6b3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 14:48:53</sys_created_on>
+            <sys_id>3a4f574993700310d656f01bdd03d63d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 14:48:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>effort</element>
+            <list_id display_value="x_776055_workout_set" element="NULL" name="x_776055_workout_set" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fa4f1b0993700310d656f01bdd03d6b3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 14:48:53</sys_created_on>
+            <sys_id>be4f574993700310d656f01bdd03d63d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 14:48:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>preparation</element>
+            <list_id display_value="x_776055_workout_set" element="NULL" name="x_776055_workout_set" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fa4f1b0993700310d656f01bdd03d6b3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 14:48:53</sys_created_on>
+            <sys_id>364f574993700310d656f01bdd03d63e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 14:48:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>rest</element>
+            <list_id display_value="x_776055_workout_set" element="NULL" name="x_776055_workout_set" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fa4f1b0993700310d656f01bdd03d6b3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 14:48:53</sys_created_on>
+            <sys_id>ba4f574993700310d656f01bdd03d63e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 14:48:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>title</element>
+            <list_id display_value="x_776055_workout_set" element="NULL" name="x_776055_workout_set" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fa4f1b0993700310d656f01bdd03d6b3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 14:48:53</sys_created_on>
+            <sys_id>324f574993700310d656f01bdd03d63f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 14:48:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_776055_workout_set</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 14:48:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa4f1b0993700310d656f01bdd03d6b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_776055_workout_set</sys_name>
+            <sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope>
+            <sys_update_name>sys_ui_list_x_776055_workout_set_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 14:48:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

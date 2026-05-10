@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="4ed0af8993700310d656f01bdd03d60e" label="Exercice Set" max_length="40" name="x_776055_workout_exercice_set" type="collection">
+        <element label="Use exercice durations" max_length="255" name="use_exercice_durations" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Exercices" max_length="32" name="set" reference="x_776055_workout_exercice" type="reference"/>
+        <element attributes="encode_utf8=false" label="Sets" max_length="32" name="exercice" reference="x_776055_workout_set" type="reference"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <index name="index">
+            <element name="exercice"/>
+        </index>
+        <index name="index2">
+            <element name="set"/>
+        </index>
+    </element>
+</database>
