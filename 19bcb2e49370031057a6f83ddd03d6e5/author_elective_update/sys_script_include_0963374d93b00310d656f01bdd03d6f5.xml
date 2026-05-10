@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_776055_workout.Session</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>Session</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var Session = Class.create();
+Session.prototype = {
+    initialize: function() {
+    },
+
+    type: 'Session'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 16:16:51</sys_created_on>
+        <sys_id>0963374d93b00310d656f01bdd03d6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Session</sys_name>
+        <sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope>
+        <sys_update_name>sys_script_include_0963374d93b00310d656f01bdd03d6f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 16:16:51</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</application>
+        <file_path/>
+        <instance_id>a67758973b848fd0677f04e0b5e45ada</instance_id>
+        <instance_name>dev377461</instance_name>
+        <name>sys_script_include_0963374d93b00310d656f01bdd03d6f5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_776055_workout.Session&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;Session&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var Session = Class.create();
+Session.prototype = {
+    initialize: function() {
+    },
+
+    type: 'Session'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-10 16:16:51&lt;/sys_created_on&gt;&lt;sys_id&gt;0963374d93b00310d656f01bdd03d6f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Session&lt;/sys_name&gt;&lt;sys_package display_value="Workout" source="x_776055_workout"&gt;19bcb2e49370031057a6f83ddd03d6e5&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Workout"&gt;19bcb2e49370031057a6f83ddd03d6e5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_0963374d93b00310d656f01bdd03d6f5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-10 16:16:51&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>746578775</payload_hash>
+        <record_name>Session</record_name>
+        <reverted_from/>
+        <source>fcd99f4d93300310d656f01bdd03d6e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 16:16:51</sys_created_on>
+        <sys_id>1f63bb8193340310d656f01bdd03d600</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e12ad5c260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 16:16:51</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>db637b81c4340310e913541de3aad1ff</update_guid>
+        <update_guid_history>db637b81c4340310e913541de3aad1ff:746578775</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 17:09:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>39d67573f433404f92f37aaf5fc48199</sys_id>
+        <sys_metadata>0963374d93b00310d656f01bdd03d6f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Session</sys_name>
+        <sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope>
+        <sys_scope_delete display_value="">02a5d11bcf594cd08023d8bb473556c1</sys_scope_delete>
+        <sys_update_name>sys_script_include_0963374d93b00310d656f01bdd03d6f5</sys_update_name>
+        <sys_update_version display_value="sys_script_include_0963374d93b00310d656f01bdd03d6f5">1f63bb8193340310d656f01bdd03d600</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 17:09:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

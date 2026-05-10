@@ -9,63 +9,22 @@
         <mobile_callable>false</mobile_callable>
         <name>SessionDef</name>
         <sandbox_callable>false</sandbox_callable>
-        <script><![CDATA[var SessionDef = Class.create();
-
-/**
- * Used to initialize a SessionDef record and script
- * @param {Object} fieldMap : Javascript object of key value pairs of every field to initialize
- *  Values can be function to evaluate
- */
-SessionDef.initialize = function(fieldMap){
-	var script = new SessionDef();
-	var record = new GlideRecord(script.TABLE_NAME);
-	record.initialize();
-	for (field in fieldMap){
-		let value = fieldMap[field];
-		if (typeof(value) == "function")
-			record.setValue(field, value());
-		else record.setValue(field, value);
-	}
-	script.r = record;
-	return script;
-};
-SessionDef.new = function(fieldMap){
-	var script = SessionDef.initialize(fieldMap);
-	script.r.insert();
-	return script;
-};
-
-SessionDef.prototype = {
+        <script><![CDATA[var SessionDef = Custom_Object.extend({
 	TABLE_NAME: "x_776055_workout_session_definition",
 
-	/**
-	 * @param {GlideRecord|GlideElement|String} record : Used to initialize current record (this.r).
-	 * 	can be either a gliderecord, a glideElement or a sys_id
-	 */
-    initialize: function(record) {
-		if (record && record.getUniqueValue())
-            this.r = record;
-        else if (record)
-            this.r = new GlideRecordUtil().getGR(this.TABLE_NAME, record);
-    },
-
-	generateSession: function(){
-
-	},
-
     type: 'SessionDef'
-};]]></script>
+});]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-10 15:39:14</sys_created_on>
         <sys_id>9a89ef8d93b00310d656f01bdd03d684</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>SessionDef</sys_name>
         <sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope>
         <sys_update_name>sys_script_include_9a89ef8d93b00310d656f01bdd03d684</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-10 15:55:06</sys_updated_on>
+        <sys_updated_on>2026-05-10 16:37:23</sys_updated_on>
     </sys_script_include>
 </record_update>
