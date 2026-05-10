@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="58c7a30993b00310d656f01bdd03d6c9" label="Session Categories" max_length="40" name="x_776055_workout_session_categories" type="collection">
+        <element attributes="encode_utf8=false" label="Categories" max_length="32" name="session" reference="x_776055_workout_category" type="reference"/>
+        <element label="Weight" max_length="40" name="weight" type="integer"/>
+        <element attributes="encode_utf8=false" label="Session Definitions" max_length="32" name="category" reference="x_776055_workout_session_definition" type="reference"/>
+        <index name="index">
+            <element name="category"/>
+        </index>
+        <index name="index2">
+            <element name="session"/>
+        </index>
+    </element>
+</database>

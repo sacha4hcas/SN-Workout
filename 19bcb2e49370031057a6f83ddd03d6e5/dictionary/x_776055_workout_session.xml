@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="46d323c193b00310d656f01bdd03d6e2" label="Session" max_length="40" name="x_776055_workout_session" type="collection">
+        <element label="Infinite" max_length="40" name="infinite" type="boolean"/>
+        <element label="End" max_length="40" name="end" type="glide_date_time"/>
+        <element label="Repetition" max_length="40" name="repetition" type="integer"/>
+        <element label="Shuffled" max_length="40" name="shuffled" type="boolean"/>
+        <element label="Session Definition" max_length="32" name="session_definition" reference="x_776055_workout_session_definition" type="reference"/>
+        <element label="Start" max_length="40" name="start" type="glide_date_time"/>
+        <index name="index">
+            <element name="session_definition"/>
+        </index>
+    </element>
+</database>

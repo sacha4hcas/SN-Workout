@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="6408e7c993b00310d656f01bdd03d670" sys_domain="global" table="x_776055_workout_m2m_x_776055_wor_x_776055_wor" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 15:26:58</sys_created_on>
+            <sys_id>a408e7c993b00310d656f01bdd03d675</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_776055_workout_m2m_x_776055_wor_x_776055_wor" sys_domain="global" view="Default view">6408e7c993b00310d656f01bdd03d670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 15:26:58</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>session</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 15:26:58</sys_created_on>
+            <sys_id>6008e7c993b00310d656f01bdd03d676</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_776055_workout_m2m_x_776055_wor_x_776055_wor" sys_domain="global" view="Default view">6408e7c993b00310d656f01bdd03d670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 15:26:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 15:26:58</sys_created_on>
+            <sys_id>2c08e7c993b00310d656f01bdd03d676</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_776055_workout_m2m_x_776055_wor_x_776055_wor" sys_domain="global" view="Default view">6408e7c993b00310d656f01bdd03d670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 15:26:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>set</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 15:26:58</sys_created_on>
+            <sys_id>e408e7c993b00310d656f01bdd03d677</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_776055_workout_m2m_x_776055_wor_x_776055_wor" sys_domain="global" view="Default view">6408e7c993b00310d656f01bdd03d670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 15:26:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 15:26:58</sys_created_on>
+            <sys_id>a008e7c993b00310d656f01bdd03d678</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_776055_workout_m2m_x_776055_wor_x_776055_wor" sys_domain="global" view="Default view">6408e7c993b00310d656f01bdd03d670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 15:26:58</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_776055_workout_m2m_x_776055_wor_x_776055_wor</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 15:26:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6408e7c993b00310d656f01bdd03d670</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_776055_workout_m2m_x_776055_wor_x_776055_wor</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope>
+            <sys_update_name>sys_ui_section_6408e7c993b00310d656f01bdd03d670</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 15:26:57</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</application>
+        <file_path/>
+        <instance_id>a67758973b848fd0677f04e0b5e45ada</instance_id>
+        <instance_name>dev377461</instance_name>
+        <name>sys_ui_section_6408e7c993b00310d656f01bdd03d670</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="6408e7c993b00310d656f01bdd03d670" sys_domain="global" table="x_776055_workout_m2m_x_776055_wor_x_776055_wor" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-10 15:26:58</sys_created_on><sys_id>a408e7c993b00310d656f01bdd03d675</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_776055_workout_m2m_x_776055_wor_x_776055_wor" sys_domain="global" view="Default view">6408e7c993b00310d656f01bdd03d670</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-10 15:26:58</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>session</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-10 15:26:58</sys_created_on><sys_id>6008e7c993b00310d656f01bdd03d676</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_776055_workout_m2m_x_776055_wor_x_776055_wor" sys_domain="global" view="Default view">6408e7c993b00310d656f01bdd03d670</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-10 15:26:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-10 15:26:58</sys_created_on><sys_id>2c08e7c993b00310d656f01bdd03d676</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_776055_workout_m2m_x_776055_wor_x_776055_wor" sys_domain="global" view="Default view">6408e7c993b00310d656f01bdd03d670</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-10 15:26:58</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>set</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-10 15:26:58</sys_created_on><sys_id>e408e7c993b00310d656f01bdd03d677</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_776055_workout_m2m_x_776055_wor_x_776055_wor" sys_domain="global" view="Default view">6408e7c993b00310d656f01bdd03d670</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-10 15:26:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-10 15:26:58</sys_created_on><sys_id>a008e7c993b00310d656f01bdd03d678</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_776055_workout_m2m_x_776055_wor_x_776055_wor" sys_domain="global" view="Default view">6408e7c993b00310d656f01bdd03d670</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-10 15:26:58</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_776055_workout_m2m_x_776055_wor_x_776055_wor</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-10 15:26:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6408e7c993b00310d656f01bdd03d670</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_776055_workout_m2m_x_776055_wor_x_776055_wor</sys_name><sys_overrides/><sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package><sys_policy/><sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope><sys_update_name>sys_ui_section_6408e7c993b00310d656f01bdd03d670</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-10 15:26:57</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1331839978</payload_hash>
+        <record_name>x_776055_workout_m2m_Session Definitions_Sets</record_name>
+        <reverted_from/>
+        <source>fcd99f4d93300310d656f01bdd03d6e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 15:26:58</sys_created_on>
+        <sys_id>a808e7c993b00310d656f01bdd03d694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e127fae1e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 15:26:58</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>e808e7c9d3b00310ba45a622e010ca93</update_guid>
+        <update_guid_history>e808e7c9d3b00310ba45a622e010ca93:-1331839978,6808e7c97db003102c0a7e8bb4d6e374:-1752159246</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 15:27:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>bd5e69b106b2411bb102d6336ccd6d31</sys_id>
+        <sys_metadata>6408e7c993b00310d656f01bdd03d670</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_776055_workout_m2m_x_776055_wor_x_776055_wor</sys_name>
+        <sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package>
+        <sys_parent display_value="">bdf7a78993b00310d656f01bdd03d699</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope>
+        <sys_scope_delete display_value="">02a5d11bcf594cd08023d8bb473556c1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_6408e7c993b00310d656f01bdd03d670</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_6408e7c993b00310d656f01bdd03d670">a808e7c993b00310d656f01bdd03d694</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 15:27:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

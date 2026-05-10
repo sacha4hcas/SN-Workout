@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="2c58e30d93b00310d656f01bdd03d6c7" label="Session Sets" max_length="40" name="x_776055_workout_session_sets" type="collection">
+        <element attributes="encode_utf8=false" label="Session Definitions" max_length="32" name="set" reference="x_776055_workout_session_definition" type="reference"/>
+        <element attributes="encode_utf8=false" label="Sets" max_length="32" name="session" reference="x_776055_workout_set" type="reference"/>
+        <element label="Repetition" max_length="40" name="repetition" type="integer"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <index name="index">
+            <element name="session"/>
+        </index>
+        <index name="index2">
+            <element name="set"/>
+        </index>
+    </element>
+</database>

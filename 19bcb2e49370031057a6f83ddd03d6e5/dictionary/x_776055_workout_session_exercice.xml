@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="6c07274993b00310d656f01bdd03d64f" label="Session Exercice" max_length="40" name="x_776055_workout_session_exercice" type="collection">
+        <element label="Exercice" max_length="32" name="exercice" reference="x_776055_workout_exercice" type="reference"/>
+        <element label="End" max_length="40" name="end" type="glide_date_time"/>
+        <element choice="3" default="not_started" label="State" max_length="255" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Done" sequence="1" value="done"/>
+                <element inactive_on_update="false" label="Skipped" sequence="2" value="skipped"/>
+                <element inactive_on_update="false" label="Not started" sequence="0" value="not_started"/>
+            </choice>
+        </element>
+        <element label="Start" max_length="40" name="start" type="glide_date_time"/>
+        <index name="index">
+            <element name="exercice"/>
+        </index>
+    </element>
+</database>

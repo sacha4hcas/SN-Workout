@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="d9f2ef0193b00310d656f01bdd03d606" label="Session Definition" max_length="40" name="x_776055_workout_session_definition" type="collection">
+        <element label="Repetition" max_length="40" name="repetition" type="integer"/>
+        <element choice="3" default="set_based" label="Type" max_length="255" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Category based" sequence="1" value="category_based"/>
+                <element inactive_on_update="false" label="Set based" sequence="0" value="set_based"/>
+            </choice>
+        </element>
+        <element label="Infinite" max_length="40" name="infinite" type="boolean"/>
+        <element label="Shuffled" max_length="40" name="shuffled" type="boolean"/>
+    </element>
+</database>
