@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="2571a74d93700310d656f01bdd03d678" label="Exercice Categories" max_length="40" name="x_776055_workout_exercice_category" type="collection">
         <element attributes="encode_utf8=false" label="Categories" max_length="32" name="exercice" reference="x_776055_workout_category" type="reference"/>
+        <element label="Category" max_length="32" name="category" reference="x_776055_workout_exercice" type="reference"/>
         <element attributes="encode_utf8=false" label="Exercices" max_length="32" name="cateogory" reference="x_776055_workout_exercice" type="reference"/>
         <index name="index">
+            <element name="category"/>
+        </index>
+        <index name="index2">
             <element name="cateogory"/>
         </index>
         <index name="index2">

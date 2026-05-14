@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="aa0a978d93300310d656f01bdd03d671" label="Category" max_length="40" name="x_776055_workout_category" type="collection">
-        <element label="Title" max_length="40" name="title" type="string"/>
+        <element display="true" label="Title" max_length="40" name="title" type="string"/>
         <element label="Description" max_length="1000" name="description" type="string"/>
         <element label="Parent" max_length="32" name="parent" reference="x_776055_workout_category" type="reference"/>
         <index name="index">

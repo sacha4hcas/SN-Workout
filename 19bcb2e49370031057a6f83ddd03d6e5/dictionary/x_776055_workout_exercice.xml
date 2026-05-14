@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="94bfc23893b8431057a6f83ddd03d662" label="Exercice" max_length="40" name="x_776055_workout_exercice" type="collection">
+        <element label="Rest" max_length="40" name="rest" type="integer"/>
+        <element display="true" label="Title" max_length="40" name="title" type="string"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Effort" max_length="40" name="effort" type="integer"/>
         <element label="Preparation" max_length="40" name="preparation" type="integer"/>
-        <element label="Rest" max_length="40" name="rest" type="integer"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Title" max_length="40" name="title" type="string"/>
-        <element label="Description" max_length="1000" name="description" type="string"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>
