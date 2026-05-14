@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-05-10 20:33:41">
+<sys_dictionary action="INSERT_OR_UPDATE">
+<active>true</active>
+<array>false</array>
+<array_denormalized>false</array_denormalized>
+<attributes/>
+<audit>false</audit>
+<calculation/>
+<choice>0</choice>
+<choice_field/>
+<choice_table/>
+<column_label>Updated by</column_label>
+<comments/>
+<create_roles/>
+<default_value/>
+<defaultsort/>
+<delete_roles/>
+<dependent/>
+<dependent_on_field/>
+<display>false</display>
+<dynamic_creation>false</dynamic_creation>
+<dynamic_creation_script/>
+<dynamic_default_value display_value=""/>
+<dynamic_ref_qual display_value=""/>
+<element>sys_updated_by</element>
+<element_reference>false</element_reference>
+<foreign_database/>
+<formula/>
+<function_definition/>
+<function_field>false</function_field>
+<internal_type display_value="String">string</internal_type>
+<mandatory>false</mandatory>
+<max_length>40</max_length>
+<name>x_776055_workout_session_sets</name>
+<next_element/>
+<primary>false</primary>
+<read_only>false</read_only>
+<read_only_option/>
+<read_roles/>
+<reference display_value=""/>
+<reference_cascade_rule/>
+<reference_floats>false</reference_floats>
+<reference_key/>
+<reference_qual/>
+<reference_qual_condition/>
+<reference_type/>
+<sizeclass/>
+<spell_check>false</spell_check>
+<staged>false</staged>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-10 15:28:20</sys_created_on>
+<sys_id>2458270d93b00310d656f01bdd03d608</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name/>
+<sys_package display_value=""/>
+<sys_policy/>
+<sys_scope display_value=""/>
+<sys_update_name/>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-10 15:28:20</sys_updated_on>
+<table_reference>false</table_reference>
+<text_index>false</text_index>
+<unique>false</unique>
+<use_dependent_field>false</use_dependent_field>
+<use_dynamic_default>false</use_dynamic_default>
+<use_reference_qualifier>simple</use_reference_qualifier>
+<virtual>false</virtual>
+<virtual_type/>
+<widget/>
+<write_roles/>
+<xml_view>false</xml_view>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<active>true</active>
+<array>false</array>
+<array_denormalized>false</array_denormalized>
+<attributes/>
+<audit>false</audit>
+<calculation/>
+<choice>0</choice>
+<choice_field/>
+<choice_table/>
+<column_label>Updates</column_label>
+<comments/>
+<create_roles/>
+<default_value/>
+<defaultsort/>
+<delete_roles/>
+<dependent/>
+<dependent_on_field/>
+<display>false</display>
+<dynamic_creation>false</dynamic_creation>
+<dynamic_creation_script/>
+<dynamic_default_value display_value=""/>
+<dynamic_ref_qual display_value=""/>
+<element>sys_mod_count</element>
+<element_reference>false</element_reference>
+<foreign_database/>
+<formula/>
+<function_definition/>
+<function_field>false</function_field>
+<internal_type display_value="Integer">integer</internal_type>
+<mandatory>false</mandatory>
+<max_length>40</max_length>
+<name>x_776055_workout_session_sets</name>
+<next_element/>
+<primary>false</primary>
+<read_only>false</read_only>
+<read_only_option/>
+<read_roles/>
+<reference display_value=""/>
+<reference_cascade_rule/>
+<reference_floats>false</reference_floats>
+<reference_key/>
+<reference_qual/>
+<reference_qual_condition/>
+<reference_type/>
+<sizeclass/>
+<spell_check>false</spell_check>
+<staged>false</staged>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-10 15:28:20</sys_created_on>
+<sys_id>2858270d93b00310d656f01bdd03d611</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name/>
+<sys_package display_value=""/>
+<sys_policy/>
+<sys_scope display_value=""/>
+<sys_update_name/>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-10 15:28:20</sys_updated_on>
+<table_reference>false</table_reference>
+<text_index>false</text_index>
+<unique>false</unique>
+<use_dependent_field>false</use_dependent_field>
+<use_dynamic_default>false</use_dynamic_default>
+<use_reference_qualifier>simple</use_reference_qualifier>
+<virtual>false</virtual>
+<virtual_type/>
+<widget/>
+<write_roles/>
+<xml_view>false</xml_view>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<active>true</active>
+<array>false</array>
+<array_denormalized>false</array_denormalized>
+<attributes/>
+<audit>false</audit>
+<calculation/>
+<choice>0</choice>
+<choice_field/>
+<choice_table/>
+<column_label>Updated</column_label>
+<comments/>
+<create_roles/>
+<default_value/>
+<defaultsort/>
+<delete_roles/>
+<dependent/>
+<dependent_on_field/>
+<display>false</display>
+<dynamic_creation>false</dynamic_creation>
+<dynamic_creation_script/>
+<dynamic_default_value display_value=""/>
+<dynamic_ref_qual display_value=""/>
+<element>sys_updated_on</element>
+<element_reference>false</element_reference>
+<foreign_database/>
+<formula/>
+<function_definition/>
+<function_field>false</function_field>
+<internal_type display_value="Date/Time">glide_date_time</internal_type>
+<mandatory>false</mandatory>
+<max_length>40</max_length>
+<name>x_776055_workout_session_sets</name>
+<next_element/>
+<primary>false</primary>
+<read_only>false</read_only>
+<read_only_option/>
+<read_roles/>
+<reference display_value=""/>
+<reference_cascade_rule/>
+<reference_floats>false</reference_floats>
+<reference_key/>
+<reference_qual/>
+<reference_qual_condition/>
+<reference_type/>
+<sizeclass/>
+<spell_check>false</spell_check>
+<staged>false</staged>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-10 15:28:20</sys_created_on>
+<sys_id>6858270d93b00310d656f01bdd03d60a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name/>
+<sys_package display_value=""/>
+<sys_policy/>
+<sys_scope display_value=""/>
+<sys_update_name/>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-10 15:28:20</sys_updated_on>
+<table_reference>false</table_reference>
+<text_index>false</text_index>
+<unique>false</unique>
+<use_dependent_field>false</use_dependent_field>
+<use_dynamic_default>false</use_dynamic_default>
+<use_reference_qualifier>simple</use_reference_qualifier>
+<virtual>false</virtual>
+<virtual_type/>
+<widget/>
+<write_roles/>
+<xml_view>false</xml_view>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<active>true</active>
+<array>false</array>
+<array_denormalized>false</array_denormalized>
+<attributes>encode_utf8=false</attributes>
+<audit>false</audit>
+<calculation/>
+<choice>0</choice>
+<choice_field/>
+<choice_table/>
+<column_label>Session Definitions</column_label>
+<comments/>
+<create_roles/>
+<default_value/>
+<defaultsort/>
+<delete_roles/>
+<dependent/>
+<dependent_on_field/>
+<display>false</display>
+<dynamic_creation>false</dynamic_creation>
+<dynamic_creation_script/>
+<dynamic_default_value display_value=""/>
+<dynamic_ref_qual display_value=""/>
+<element>set</element>
+<element_reference>false</element_reference>
+<foreign_database/>
+<formula/>
+<function_definition/>
+<function_field>false</function_field>
+<internal_type display_value="Reference">reference</internal_type>
+<mandatory>false</mandatory>
+<max_length>32</max_length>
+<name>x_776055_workout_session_sets</name>
+<next_element/>
+<primary>false</primary>
+<read_only>false</read_only>
+<read_only_option/>
+<read_roles/>
+<reference display_value="Session Definition" name="x_776055_workout_session_definition">x_776055_workout_session_definition</reference>
+<reference_cascade_rule/>
+<reference_floats>false</reference_floats>
+<reference_key/>
+<reference_qual/>
+<reference_qual_condition table="x_776055_workout_session_definition"/>
+<reference_type/>
+<sizeclass/>
+<spell_check>false</spell_check>
+<staged>false</staged>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-10 15:28:20</sys_created_on>
+<sys_id>7458270d93b00310d656f01bdd03d634</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Session Definitions</sys_name>
+<sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package>
+<sys_policy/>
+<sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope>
+<sys_update_name>sys_dictionary_x_776055_workout_session_sets_set</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-10 15:28:20</sys_updated_on>
+<table_reference>false</table_reference>
+<text_index>false</text_index>
+<unique>false</unique>
+<use_dependent_field>false</use_dependent_field>
+<use_dynamic_default>false</use_dynamic_default>
+<use_reference_qualifier/>
+<virtual>false</virtual>
+<virtual_type/>
+<widget/>
+<write_roles/>
+<xml_view>false</xml_view>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<active>true</active>
+<array>false</array>
+<array_denormalized>false</array_denormalized>
+<attributes>encode_utf8=false</attributes>
+<audit>false</audit>
+<calculation/>
+<choice>0</choice>
+<choice_field/>
+<choice_table/>
+<column_label>Sets</column_label>
+<comments/>
+<create_roles/>
+<default_value/>
+<defaultsort/>
+<delete_roles/>
+<dependent/>
+<dependent_on_field/>
+<display>false</display>
+<dynamic_creation>false</dynamic_creation>
+<dynamic_creation_script/>
+<dynamic_default_value display_value=""/>
+<dynamic_ref_qual display_value=""/>
+<element>session</element>
+<element_reference>false</element_reference>
+<foreign_database/>
+<formula/>
+<function_definition/>
+<function_field>false</function_field>
+<internal_type display_value="Reference">reference</internal_type>
+<mandatory>false</mandatory>
+<max_length>32</max_length>
+<name>x_776055_workout_session_sets</name>
+<next_element/>
+<primary>false</primary>
+<read_only>false</read_only>
+<read_only_option/>
+<read_roles/>
+<reference display_value="Set" name="x_776055_workout_set">x_776055_workout_set</reference>
+<reference_cascade_rule/>
+<reference_floats>false</reference_floats>
+<reference_key/>
+<reference_qual/>
+<reference_qual_condition table="x_776055_workout_set"/>
+<reference_type/>
+<sizeclass/>
+<spell_check>false</spell_check>
+<staged>false</staged>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-10 15:28:20</sys_created_on>
+<sys_id>a858270d93b00310d656f01bdd03d620</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Sets</sys_name>
+<sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package>
+<sys_policy/>
+<sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope>
+<sys_update_name>sys_dictionary_x_776055_workout_session_sets_session</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-10 15:28:20</sys_updated_on>
+<table_reference>false</table_reference>
+<text_index>false</text_index>
+<unique>false</unique>
+<use_dependent_field>false</use_dependent_field>
+<use_dynamic_default>false</use_dynamic_default>
+<use_reference_qualifier/>
+<virtual>false</virtual>
+<virtual_type/>
+<widget/>
+<write_roles/>
+<xml_view>false</xml_view>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<active>true</active>
+<array>false</array>
+<array_denormalized>false</array_denormalized>
+<attributes/>
+<audit>false</audit>
+<calculation/>
+<choice>0</choice>
+<choice_field/>
+<choice_table/>
+<column_label>Created by</column_label>
+<comments/>
+<create_roles/>
+<default_value/>
+<defaultsort/>
+<delete_roles/>
+<dependent/>
+<dependent_on_field/>
+<display>false</display>
+<dynamic_creation>false</dynamic_creation>
+<dynamic_creation_script/>
+<dynamic_default_value display_value=""/>
+<dynamic_ref_qual display_value=""/>
+<element>sys_created_by</element>
+<element_reference>false</element_reference>
+<foreign_database/>
+<formula/>
+<function_definition/>
+<function_field>false</function_field>
+<internal_type display_value="String">string</internal_type>
+<mandatory>false</mandatory>
+<max_length>40</max_length>
+<name>x_776055_workout_session_sets</name>
+<next_element/>
+<primary>false</primary>
+<read_only>false</read_only>
+<read_only_option/>
+<read_roles/>
+<reference display_value=""/>
+<reference_cascade_rule/>
+<reference_floats>false</reference_floats>
+<reference_key/>
+<reference_qual/>
+<reference_qual_condition/>
+<reference_type/>
+<sizeclass/>
+<spell_check>false</spell_check>
+<staged>false</staged>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-10 15:28:20</sys_created_on>
+<sys_id>ac58270d93b00310d656f01bdd03d60c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name/>
+<sys_package display_value=""/>
+<sys_policy/>
+<sys_scope display_value=""/>
+<sys_update_name/>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-10 15:28:20</sys_updated_on>
+<table_reference>false</table_reference>
+<text_index>false</text_index>
+<unique>false</unique>
+<use_dependent_field>false</use_dependent_field>
+<use_dynamic_default>false</use_dynamic_default>
+<use_reference_qualifier>simple</use_reference_qualifier>
+<virtual>false</virtual>
+<virtual_type/>
+<widget/>
+<write_roles/>
+<xml_view>false</xml_view>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<active>true</active>
+<array>false</array>
+<array_denormalized>false</array_denormalized>
+<attributes/>
+<audit>false</audit>
+<calculation/>
+<choice>0</choice>
+<choice_field/>
+<choice_table/>
+<column_label>Repetition</column_label>
+<comments/>
+<create_roles/>
+<default_value/>
+<defaultsort/>
+<delete_roles/>
+<dependent/>
+<dependent_on_field/>
+<display>false</display>
+<dynamic_creation>false</dynamic_creation>
+<dynamic_creation_script/>
+<dynamic_default_value display_value=""/>
+<dynamic_ref_qual display_value=""/>
+<element>repetition</element>
+<element_reference>false</element_reference>
+<foreign_database/>
+<formula/>
+<function_definition/>
+<function_field>false</function_field>
+<internal_type display_value="Integer">integer</internal_type>
+<mandatory>false</mandatory>
+<max_length>40</max_length>
+<name>x_776055_workout_session_sets</name>
+<next_element/>
+<primary>false</primary>
+<read_only>false</read_only>
+<read_only_option/>
+<read_roles/>
+<reference display_value=""/>
+<reference_cascade_rule/>
+<reference_floats>false</reference_floats>
+<reference_key/>
+<reference_qual/>
+<reference_qual_condition/>
+<reference_type/>
+<sizeclass/>
+<spell_check>false</spell_check>
+<staged>false</staged>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-10 15:30:09</sys_created_on>
+<sys_id>d3b8a34d93b00310d656f01bdd03d6aa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Repetition</sys_name>
+<sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package>
+<sys_policy/>
+<sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope>
+<sys_update_name>sys_dictionary_x_776055_workout_session_sets_repetition</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-10 15:30:09</sys_updated_on>
+<table_reference>false</table_reference>
+<text_index>false</text_index>
+<unique>false</unique>
+<use_dependent_field>false</use_dependent_field>
+<use_dynamic_default>false</use_dynamic_default>
+<use_reference_qualifier>simple</use_reference_qualifier>
+<virtual>false</virtual>
+<virtual_type>script</virtual_type>
+<widget/>
+<write_roles/>
+<xml_view>false</xml_view>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<active>true</active>
+<array>false</array>
+<array_denormalized>false</array_denormalized>
+<attributes/>
+<audit>false</audit>
+<calculation/>
+<choice>0</choice>
+<choice_field/>
+<choice_table/>
+<column_label>Order</column_label>
+<comments/>
+<create_roles/>
+<default_value/>
+<defaultsort/>
+<delete_roles/>
+<dependent/>
+<dependent_on_field/>
+<display>false</display>
+<dynamic_creation>false</dynamic_creation>
+<dynamic_creation_script/>
+<dynamic_default_value display_value=""/>
+<dynamic_ref_qual display_value=""/>
+<element>order</element>
+<element_reference>false</element_reference>
+<foreign_database/>
+<formula/>
+<function_definition/>
+<function_field>false</function_field>
+<internal_type display_value="Integer">integer</internal_type>
+<mandatory>false</mandatory>
+<max_length>40</max_length>
+<name>x_776055_workout_session_sets</name>
+<next_element/>
+<primary>false</primary>
+<read_only>false</read_only>
+<read_only_option/>
+<read_roles/>
+<reference display_value=""/>
+<reference_cascade_rule/>
+<reference_floats>false</reference_floats>
+<reference_key/>
+<reference_qual/>
+<reference_qual_condition/>
+<reference_type/>
+<sizeclass/>
+<spell_check>false</spell_check>
+<staged>false</staged>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-10 15:30:09</sys_created_on>
+<sys_id>dbb8a34d93b00310d656f01bdd03d6bc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Order</sys_name>
+<sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package>
+<sys_policy/>
+<sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope>
+<sys_update_name>sys_dictionary_x_776055_workout_session_sets_order</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-10 15:30:09</sys_updated_on>
+<table_reference>false</table_reference>
+<text_index>false</text_index>
+<unique>false</unique>
+<use_dependent_field>false</use_dependent_field>
+<use_dynamic_default>false</use_dynamic_default>
+<use_reference_qualifier>simple</use_reference_qualifier>
+<virtual>false</virtual>
+<virtual_type>script</virtual_type>
+<widget/>
+<write_roles/>
+<xml_view>false</xml_view>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<active>true</active>
+<array>false</array>
+<array_denormalized>false</array_denormalized>
+<attributes/>
+<audit>false</audit>
+<calculation/>
+<choice>0</choice>
+<choice_field/>
+<choice_table/>
+<column_label>Created</column_label>
+<comments/>
+<create_roles/>
+<default_value/>
+<defaultsort/>
+<delete_roles/>
+<dependent/>
+<dependent_on_field/>
+<display>false</display>
+<dynamic_creation>false</dynamic_creation>
+<dynamic_creation_script/>
+<dynamic_default_value display_value=""/>
+<dynamic_ref_qual display_value=""/>
+<element>sys_created_on</element>
+<element_reference>false</element_reference>
+<foreign_database/>
+<formula/>
+<function_definition/>
+<function_field>false</function_field>
+<internal_type display_value="Date/Time">glide_date_time</internal_type>
+<mandatory>false</mandatory>
+<max_length>40</max_length>
+<name>x_776055_workout_session_sets</name>
+<next_element/>
+<primary>false</primary>
+<read_only>false</read_only>
+<read_only_option/>
+<read_roles/>
+<reference display_value=""/>
+<reference_cascade_rule/>
+<reference_floats>false</reference_floats>
+<reference_key/>
+<reference_qual/>
+<reference_qual_condition/>
+<reference_type/>
+<sizeclass/>
+<spell_check>false</spell_check>
+<staged>false</staged>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-10 15:28:20</sys_created_on>
+<sys_id>e058270d93b00310d656f01bdd03d60f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name/>
+<sys_package display_value=""/>
+<sys_policy/>
+<sys_scope display_value=""/>
+<sys_update_name/>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-10 15:28:20</sys_updated_on>
+<table_reference>false</table_reference>
+<text_index>false</text_index>
+<unique>false</unique>
+<use_dependent_field>false</use_dependent_field>
+<use_dynamic_default>false</use_dynamic_default>
+<use_reference_qualifier>simple</use_reference_qualifier>
+<virtual>false</virtual>
+<virtual_type/>
+<widget/>
+<write_roles/>
+<xml_view>false</xml_view>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<active>true</active>
+<array>false</array>
+<array_denormalized>false</array_denormalized>
+<attributes/>
+<audit>false</audit>
+<calculation/>
+<choice>0</choice>
+<choice_field/>
+<choice_table/>
+<column_label>Sys ID</column_label>
+<comments/>
+<create_roles/>
+<default_value/>
+<defaultsort/>
+<delete_roles/>
+<dependent/>
+<dependent_on_field/>
+<display>false</display>
+<dynamic_creation>false</dynamic_creation>
+<dynamic_creation_script/>
+<dynamic_default_value display_value=""/>
+<dynamic_ref_qual display_value=""/>
+<element>sys_id</element>
+<element_reference>false</element_reference>
+<foreign_database/>
+<formula/>
+<function_definition/>
+<function_field>false</function_field>
+<internal_type display_value="Sys ID (GUID)">GUID</internal_type>
+<mandatory>false</mandatory>
+<max_length>32</max_length>
+<name>x_776055_workout_session_sets</name>
+<next_element/>
+<primary>true</primary>
+<read_only>false</read_only>
+<read_only_option/>
+<read_roles/>
+<reference display_value=""/>
+<reference_cascade_rule/>
+<reference_floats>false</reference_floats>
+<reference_key/>
+<reference_qual/>
+<reference_qual_condition/>
+<reference_type/>
+<sizeclass/>
+<spell_check>false</spell_check>
+<staged>false</staged>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-10 15:28:20</sys_created_on>
+<sys_id>e458270d93b00310d656f01bdd03d605</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name/>
+<sys_package display_value=""/>
+<sys_policy/>
+<sys_scope display_value=""/>
+<sys_update_name/>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-10 15:28:20</sys_updated_on>
+<table_reference>false</table_reference>
+<text_index>false</text_index>
+<unique>false</unique>
+<use_dependent_field>false</use_dependent_field>
+<use_dynamic_default>false</use_dynamic_default>
+<use_reference_qualifier>simple</use_reference_qualifier>
+<virtual>false</virtual>
+<virtual_type/>
+<widget/>
+<write_roles/>
+<xml_view>false</xml_view>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<active>true</active>
+<array>false</array>
+<array_denormalized>false</array_denormalized>
+<attributes>enforce_dot_walk_cross_scope_access=true</attributes>
+<audit>false</audit>
+<calculation/>
+<choice>0</choice>
+<choice_field/>
+<choice_table/>
+<column_label/>
+<comments/>
+<create_roles/>
+<default_value/>
+<defaultsort/>
+<delete_roles/>
+<dependent/>
+<dependent_on_field/>
+<display>false</display>
+<dynamic_creation>false</dynamic_creation>
+<dynamic_creation_script/>
+<dynamic_default_value display_value=""/>
+<dynamic_ref_qual display_value=""/>
+<element/>
+<element_reference>false</element_reference>
+<foreign_database/>
+<formula/>
+<function_definition/>
+<function_field>false</function_field>
+<internal_type display_value="Collection">collection</internal_type>
+<mandatory>false</mandatory>
+<max_length>40</max_length>
+<name>x_776055_workout_session_sets</name>
+<next_element/>
+<primary>false</primary>
+<read_only>false</read_only>
+<read_only_option/>
+<read_roles/>
+<reference display_value=""/>
+<reference_cascade_rule/>
+<reference_floats>false</reference_floats>
+<reference_key/>
+<reference_qual/>
+<reference_qual_condition/>
+<reference_type/>
+<sizeclass/>
+<spell_check>false</spell_check>
+<staged>false</staged>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-10 15:28:20</sys_created_on>
+<sys_id>ec58e30d93b00310d656f01bdd03d6cb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>x_776055_workout_session_sets</sys_name>
+<sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package>
+<sys_policy/>
+<sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope>
+<sys_update_name>sys_dictionary_x_776055_workout_session_sets_null</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-10 15:28:20</sys_updated_on>
+<table_reference>false</table_reference>
+<text_index>false</text_index>
+<unique>false</unique>
+<use_dependent_field>false</use_dependent_field>
+<use_dynamic_default>false</use_dynamic_default>
+<use_reference_qualifier>simple</use_reference_qualifier>
+<virtual>false</virtual>
+<virtual_type>script</virtual_type>
+<widget/>
+<write_roles/>
+<xml_view>false</xml_view>
+</sys_dictionary>
+</unload>
