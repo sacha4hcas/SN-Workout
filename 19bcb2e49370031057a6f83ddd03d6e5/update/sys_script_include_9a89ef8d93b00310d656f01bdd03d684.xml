@@ -12,19 +12,31 @@
         <script><![CDATA[var SessionDef = Custom_Object.extend({
 	TABLE_NAME: "x_776055_workout_session_definition",
 
+	validateDefinition: function() {},
+	isSetBased: function() {},
+	isCategoryBased: function() {},
+	getSetLinks: function() {},
+	getCategoryLinks: function() {},
+	attachSet: function(setSysId, repetition, order) {},
+	detachSet: function(setSysId) {},
+	attachCategory: function(categorySysId, weight) {},
+	detachCategory: function(categorySysId) {},
+	createSession: function(options) {},
+	generateOrderedExercices: function() {},
+
     type: 'SessionDef'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-10 15:39:14</sys_created_on>
         <sys_id>9a89ef8d93b00310d656f01bdd03d684</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>SessionDef</sys_name>
         <sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope>
         <sys_update_name>sys_script_include_9a89ef8d93b00310d656f01bdd03d684</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-10 16:37:23</sys_updated_on>
+        <sys_updated_on>2026-05-10 20:58:03</sys_updated_on>
     </sys_script_include>
 </record_update>

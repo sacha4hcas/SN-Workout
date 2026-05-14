@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_776055_workout.ExerciceSet</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ExerciceSet</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ExerciceSet = Custom_Object.extend({
+	TABLE_NAME: "x_776055_workout_exercice_set",
+
+	validateLink: function() {},
+	validateNoCycle: function() {},
+	isLinked: function() {},
+	link: function(setSysId, exerciceSysId, order, useExerciceDurations) {},
+	unlink: function(setSysId, exerciceSysId) {},
+	reorderInSet: function(setSysId, orderedExerciceSysIds) {},
+	getSet: function() {},
+	getExercice: function() {},
+
+    type: 'ExerciceSet'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 20:58:16</sys_created_on>
+        <sys_id>69d3f49d93f80310d656f01bdd03d6e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ExerciceSet</sys_name>
+        <sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope>
+        <sys_update_name>sys_script_include_69d3f49d93f80310d656f01bdd03d6e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 20:58:16</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_776055_workout.SessionSet</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>SessionSet</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var SessionSet = Custom_Object.extend({
+	TABLE_NAME: "x_776055_workout_session_sets",
+
+	validateLink: function() {},
+	isLinked: function() {},
+	link: function(sessionDefSysId, setSysId, repetition, order) {},
+	unlink: function(sessionDefSysId, setSysId) {},
+	setRepetition: function(repetition) {},
+	reorderInDefinition: function(sessionDefSysId, orderedSetSysIds) {},
+	getSessionDefinition: function() {},
+	getSet: function() {},
+
+    type: 'SessionSet'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 20:58:21</sys_created_on>
+        <sys_id>32d3389d93f80310d656f01bdd03d690</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SessionSet</sys_name>
+        <sys_package display_value="Workout" source="x_776055_workout">19bcb2e49370031057a6f83ddd03d6e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workout">19bcb2e49370031057a6f83ddd03d6e5</sys_scope>
+        <sys_update_name>sys_script_include_32d3389d93f80310d656f01bdd03d690</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 20:58:21</sys_updated_on>
+    </sys_script_include>
+</record_update>
