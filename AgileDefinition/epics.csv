@@ -1,0 +1,9 @@
+epic_id,title,objective,scope,priority,release_target
+E01,Exercise Catalog Management,Create and maintain reusable exercises with correct timing data,Exercise CRUD and domain validation,P0,R1
+E02,Category Hierarchy and Classification,Support hierarchical categories and exercise classification,Category tree and exercise-category mapping,P0,R1
+E03,Set Composition and Safety,Allow reusable and nested sets without cyclic dependencies,Set behavior and Exercise-Set relationship rules,P0,R1
+E04,Session Definition Engine,Enable template-driven session configuration for generation,Set-based and category-based definition options,P0,R1
+E05,Session Generation and Execution Tracking,Generate sessions and track per-exercise execution lifecycle,Session creation and session exercise state transitions,P0,R1
+E06,Category-Based Planning and Weighting,Build weighted category session planning and reproducible generation,Session Category weighting and exercise selection strategy,P1,R2
+E07,Metrics and Insights,Provide usable statistics from completed sessions and exercises,Performance and adherence reporting,P1,R2
+E08,Platform Security and Reliability,Ensure ACLs, script structure consistency, and non-regression safety,Access control test coverage and script include hardening,P0,R1

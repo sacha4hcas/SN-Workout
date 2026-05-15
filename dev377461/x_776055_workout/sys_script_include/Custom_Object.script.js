@@ -26,6 +26,10 @@ Custom_Object.new = function(fieldMap){
 	script.r.insert();
 	return script;
 };
+Custom_Object.get = function(record){
+	var scriptClass = this;
+	return new scriptClass(record);
+}
 
 /**
  * Copies static factory methods from Custom_Object to a subclass constructor.
